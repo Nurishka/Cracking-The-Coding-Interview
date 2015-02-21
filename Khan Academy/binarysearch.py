@@ -1,3 +1,5 @@
+# Binary Search Implementation
+
 def searchFor(num, numbers):
     min = 0
     max = len(numbers) - 1
@@ -10,7 +12,7 @@ def searchFor(num, numbers):
                 min = avg + 1
             else:
                 max = avg - 1
-                
+
     return -1
 
 nums = [0, 13, 19, 24, 29, 32, 48, 51, 53, 68, 72, 74, 81, 87, 93, 97]

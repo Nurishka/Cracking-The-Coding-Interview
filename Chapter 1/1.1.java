@@ -1,3 +1,5 @@
+// 1.1 Implement an algorithm to determine if a string has all unique characters. What if you
+// can not use additional data structures?
 import java.util.*;
 import acm.program.*;
 
@@ -20,13 +22,13 @@ public class UniqueCharacterTest extends ConsoleProgram {
 						break;
 					}
 				}
-				
+
 				if (listOfChars.size() == 0 || !twoLoopsFinished)
 				{
 					listOfChars.add(Character.toString(stringForTest.charAt(i)));
 				}
 			}
-			
+
 			if (!twoLoopsFinished)
 			{
 				println("Your string has all unique characters!");
