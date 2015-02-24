@@ -23,8 +23,8 @@ class Stack(object):
         else:
             return sys.maxint
 
-{3} -> value = 3, minimum = 3
-{5, 3} -> value = 5, minimum = 3
+#{3} -> value = 3, minimum = 3
+#{5, 3} -> value = 5, minimum = 3
 class Node(object):
     def __init__(self, value, minimum):
         self.value = value
