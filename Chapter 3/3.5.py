@@ -34,3 +34,4 @@ class Node(object):
         return self.minimum
 
 class myQueue(object):
+# have one stack 
