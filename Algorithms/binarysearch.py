@@ -26,3 +26,4 @@ def unit_test(num, numbers, expected):
 unit_test(68, nums, 9)
 unit_test(0, nums, 0)
 unit_test(97, nums, 15)
+unit_test(82, nums, -1)
